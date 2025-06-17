@@ -9,7 +9,7 @@ var str_text = new String('<h1>シナリオ #3-2 チェックテスト</h1><br><
 
 str_text = str_text + "テスト時の時刻は、"
 str_text = str_text + today.toFormat('YYYY年MM月DD日')+''
-str_text= str_text + '　10時50分です。'
+str_text= str_text + '　11時35分です。'
 
 app.get('/',(req,res)=>{
     //res.send(str_text = today.toFormat('YYYY年MM月DD日\n'))
